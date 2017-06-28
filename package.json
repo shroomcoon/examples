@@ -1,0 +1,19 @@
+{
+  "name": "examples",
+  "version": "0.0.1",
+  "description": "A repository with usage examples for the ShroomCoon game library.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shroomcoon/examples.git"
+  },
+  "author": "Popniten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shroomcoon/examples/issues"
+  },
+  "homepage": "https://github.com/shroomcoon/examples#readme"
+}
