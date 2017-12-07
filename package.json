@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shroomcoon/examples/issues"
   },
-  "homepage": "https://github.com/shroomcoon/examples#readme"
+  "homepage": "https://github.com/shroomcoon/examples#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
