@@ -59,3 +59,4 @@ typings/
 
 # Compiled bundles
 *.min.js
+*.min.js.map
