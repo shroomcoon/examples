@@ -40,3 +40,7 @@ gulp.task('watch', ['bundle'], () => {
   livereload.listen()
   gulp.watch(GAME_NAME + '/index.js', ['bundle'])
 })
+
+// CREATE TASKS:
+//  Test game
+//  Test sc-/ut-modules
