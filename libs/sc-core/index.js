@@ -9,6 +9,10 @@ const Game = {
     Emitter.subscribe(event, fn)
   },
 
+  emit: (event) =>  {
+    Emitter.emit(event)
+  },
+
   run: () => {
     setInterval(update, 500)
   }
