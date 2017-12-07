@@ -8,11 +8,6 @@ const nodemon = require('gulp-nodemon')
 const source = require('vinyl-source-stream')
 const buffer = require('vinyl-buffer')
 
-gulp.task('run', () => {
-  // Start web server
-  console.log('Hello gulp')
-})
-
 gulp.task('bundle', () => {
   return browserify({
     basedir: '.',
