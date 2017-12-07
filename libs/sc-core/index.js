@@ -5,12 +5,12 @@ function update() {
 }
 
 const Game = {
-  on: (event, fn) => {
-    Emitter.subscribe(event, fn)
-  },
-
   emit: (event) =>  {
     Emitter.emit(event)
+  },
+
+  on: (event, fn) => {
+    Emitter.subscribe(event, fn)
   },
 
   run: () => {
